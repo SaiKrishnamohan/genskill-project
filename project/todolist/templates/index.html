@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>username</title>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+      <link rel="stylesheet" href="{{url_for('static',filename='index.css')}}">
+   </head>
+   <body>
+      <section>
+         <div>
+            <h1>T O D O</h1>
+         </div>
+         <div id="sign">
+            <div class="mb-3">
+               <form method="post" id="block">
+                  <label for="exampleFormControlInput1" class="form-label">log in</label>
+                  <input type="text" class="form-control" id="exampleFormControlInput1" autofocus autocomplete="off" placeholder="username" name="username">
+                  <div id="submit">
+                     <input class="btn btn-primary" type="submit">
+                  </div>
+               </form>
+            </div>
+         </div>
+      </section>
+   </body>
+
+
